@@ -31,3 +31,5 @@ backend/node_modules
 
 # Uploads
 backend/uploads
+
+frontend/node_modules
