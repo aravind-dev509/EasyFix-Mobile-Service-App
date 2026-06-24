@@ -21,3 +21,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Environment files
+.env
+backend/.env
+
+# Backend dependencies
+backend/node_modules
+
+# Uploads
+backend/uploads
