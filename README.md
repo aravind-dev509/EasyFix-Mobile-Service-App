@@ -4,7 +4,7 @@
 
 EasyFix is an On-Demand Mobile Service Application developed using the MERN Stack (MongoDB, Express.js, React.js, Node.js).
 
-The application allows users to book repair services for mobile phones, laptops, PCs, and tablets. Customers can submit service requests, track bookings, make payments, and email receive notifications. Administrators can manage users, providers, and service requests through an admin dashboard.
+The application allows users to book repair services from mobile phones, laptops, PCs, and tablets. Customers can submit service requests, track bookings, make payments, and email receive notifications. Administrators can manage users, providers, and service requests through an admin dashboard.
 
 ---
 
