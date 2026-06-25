@@ -1,70 +1,123 @@
-# Getting Started with Create React App
+# EasyFix Mobile Service Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+EasyFix is an On-Demand Mobile Service Application developed using the MERN Stack (MongoDB, Express.js, React.js, Node.js).
 
-In the project directory, you can run:
+The application allows users to book repair services for mobile phones, laptops, PCs, and tablets. Customers can submit service requests, track bookings, make payments, and receive Email notifications. Administrators can manage users, providers, and service requests through an admin dashboard.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### User Features
 
-### `npm test`
+* User Registration
+* User Login
+* Profile Management
+* Service Booking
+* Booking History
+* Payment Integration
+* Email Notifications
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Admin Features
 
-### `npm run build`
+* Manage Users
+* Manage Service Providers
+* View All Bookings
+* Assign Technicians
+* Track Service Requests
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Additional Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Razorpay Payment Gateway
+* File Upload Support
+* Secure Authentication using JWT
+* MongoDB Database Integration
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Frontend
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* React.js
+* HTML5
+* CSS3
+* JavaScript
+* Axios
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Backend
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Node.js
+* Express.js
 
-## Learn More
+### Database
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* MongoDB
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Other Tools
 
-### Code Splitting
+* Git
+* GitHub
+* VS Code
+* Postman
+* Razorpay API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+EasyFix-Mobile-Service-App
 
-### Making a Progressive Web App
+backend/
+├── config/
+├── controllers/
+├── middleware/
+├── models/
+├── routes/
+├── server.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+frontend/
+├── public/
+├── src/
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Installation
 
-### Deployment
+### Backend Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+cd backend
 
-### `npm run build` fails to minify
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm start
+
+### Frontend Setup
+
+cd frontend
+
+npm install
+
+npm start
+
+---
+
+## Future Enhancements
+
+* AI Chatbot Support
+* Real-Time Service Tracking
+* SMS Notifications
+* Technician Mobile App
+* Service Rating System
+
+---
+
+## Author
+
+Aravind
+
+Master of Computer Applications (MCA)
+
+
