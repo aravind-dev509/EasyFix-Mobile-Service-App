@@ -9,8 +9,8 @@ exports.sendEmail = async (req, res) => {
       service: "gmail",
 
       auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS
+        user:"daravind958@gmail.com",
+        pass:"xdyyduowxyeyijaf"
       }
 
     });
