@@ -11,15 +11,17 @@ exports.createBooking = async (req, res) => {
      
     console.log("SAVED BOOKING:", booking);
     
-    await transporter.sendMail({
+   try {
 
-      from: "daravind958@gmail.com",
+  await transporter.sendMail({
 
-      to: req.body.email,
+    from: process.env.EMAIL_USER,
 
-      subject: "EasyFix Booking Confirmation",
+    to: req.body.email,
 
-      text: `
+    subject: "EasyFix Booking Confirmation",
+
+    text: `
 Hello ${req.body.customerName},
 
 Your booking has been created successfully.
@@ -32,9 +34,15 @@ Date: ${req.body.preferredDate}
 Status: Pending
 
 Thank you for choosing EasyFix.
-      `
+    `
 
-    });
+  });
+
+} catch (mailError) {
+
+  console.log("EMAIL ERROR:", mailError);
+
+}
 
     res.status(201).json({
       message: "Booking Created Successfully",
