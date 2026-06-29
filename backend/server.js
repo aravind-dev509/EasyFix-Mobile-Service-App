@@ -22,7 +22,13 @@ connectDB();
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: [
+    "http://localhost:3000",
+    "https://easyfix-mobile-service-app-1.onrender.com"
+  ],
+  credentials: true
+}));
 
 app.use(express.json());
 
