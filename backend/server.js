@@ -18,9 +18,6 @@ const uploadRoutes = require("./routes/uploadRoutes");
 
 dotenv.config();
 
-console.log("ENV KEY:", process.env.RAZORPAY_KEY_ID);
-console.log("ENV SECRET:", process.env.RAZORPAY_KEY_SECRET);
-
 connectDB();
 
 const app = express();
