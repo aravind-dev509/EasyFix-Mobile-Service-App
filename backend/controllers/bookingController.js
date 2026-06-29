@@ -8,12 +8,19 @@ exports.createBooking = async (req, res) => {
     console.log("PAYMENT STATUS:", req.body.paymentStatus);
 
     const booking = await Booking.create(req.body);
+    console.log("STEP 1: Booking saved");
      
     console.log("SAVED BOOKING:", booking);
     
    try {
+    
+    console.log("STEP 2: Sending email...");
 
-  await transporter.sendMail({
+    await transporter.sendMail({
+    
+    
+
+    
 
     from: process.env.EMAIL_USER,
 
@@ -38,11 +45,17 @@ Thank you for choosing EasyFix.
 
   });
 
+  console.log("STEP 3: Email sent successfully");
+
 } catch (mailError) {
+
+   console.log("STEP 4: Email failed");
 
   console.log("EMAIL ERROR:", mailError);
 
 }
+
+   console.log("STEP 5: Sending response to frontend");
 
     res.status(201).json({
       message: "Booking Created Successfully",
