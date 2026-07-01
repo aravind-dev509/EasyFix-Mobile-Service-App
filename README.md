@@ -104,6 +104,45 @@ npm start
 
 ---
 
+# 📸 Project Screenshots
+
+## Home Page
+
+![Home Page](screenshots/home.png)
+
+## Register Page
+
+![Register Page](screenshots/register.png)
+
+## Login Page
+
+![Login Page](screenshots/login.png)
+
+## Customer Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+## Service Booking
+
+![Service Booking](screenshots/service.png)
+![Service Booking](screenshots/booking.png)
+
+## My Bookings
+
+![My Bookings](screenshots/my bookings.png)
+
+## Profile page 
+
+![Profile Page](screenshots/profile.png)
+
+## Gmail Notification
+
+![Gmail Notification](screenshots/gmail.png)
+
+## Admin Dashboard
+
+![Admin Dashboard](screenshots/admin.png)
+
 ## Future Enhancements
 
 * AI Chatbot Support
