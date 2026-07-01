@@ -127,9 +127,9 @@ npm start
 ![Service Booking](screenshots/service.png)
 ![Service Booking](screenshots/booking.png)
 
-## My Bookings
+## My Booking
 
-![My Bookings](screenshots/my booking.png)
+![My Booking](screenshots/my-booking.png)
 
 ## Profile page 
 
