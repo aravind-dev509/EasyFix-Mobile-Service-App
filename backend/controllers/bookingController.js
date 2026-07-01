@@ -12,46 +12,53 @@ exports.createBooking = async (req, res) => {
      
     console.log("SAVED BOOKING:", booking);
     
-   try {
-    
-    console.log("STEP 2: Sending email...");
+console.log("==================================");
+console.log("STEP 1 : Booking Saved");
+console.log("Customer Email :", req.body.email);
+console.log("Customer Name :", req.body.customerName);
 
-    await transporter.sendMail({
-    
-    
+try {
 
-    
+    console.log("STEP 2 : Sending Email...");
 
-    from: process.env.EMAIL_USER,
+    const info = await transporter.sendMail({
 
-    to: req.body.email,
+        from: process.env.EMAIL_USER,
 
-    subject: "EasyFix Booking Confirmation",
+        to: req.body.email,
 
-    text: `
+        subject: "EasyFix Booking Confirmation",
+
+        text: `
 Hello ${req.body.customerName},
 
 Your booking has been created successfully.
 
-Service: ${req.body.serviceType}
-Brand: ${req.body.mobileBrand}
-Model: ${req.body.mobileModel}
-Date: ${req.body.preferredDate}
+Service : ${req.body.serviceType}
 
-Status: Pending
+Brand : ${req.body.mobileBrand}
+
+Model : ${req.body.mobileModel}
+
+Date : ${req.body.preferredDate}
+
+Status : Pending
 
 Thank you for choosing EasyFix.
-    `
+        `
 
-  });
+    });
 
-  console.log("STEP 3: Email sent successfully");
+    console.log("STEP 3 : Email Sent Successfully");
 
-} catch (mailError) {
+    console.log(info);
 
-   console.log("STEP 4: Email failed");
+}
+catch(error){
 
-  console.log("EMAIL ERROR:", mailError);
+    console.log("STEP 4 : Email Failed");
+
+    console.log(error);
 
 }
 
