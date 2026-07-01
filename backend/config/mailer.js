@@ -11,8 +11,8 @@ const transporter = nodemailer.createTransport({
   family: 4,
 
   auth: {
-    user: "daravind958@gmail.com",
-    pass: "xdyyduowxyeyijaf"
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASS
   },
 
   tls: {
