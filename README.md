@@ -129,13 +129,14 @@ npm start
 
 ## My Bookings
 
-![My Bookings](screenshots/my bookings.png)
+![My Bookings](screenshots/my booking.png)
 
 ## Profile page 
 
 ![Profile Page](screenshots/profile.png)
 
 ## Gmail Notification
+
 
 ![Gmail Notification](screenshots/gmail.png)
 
