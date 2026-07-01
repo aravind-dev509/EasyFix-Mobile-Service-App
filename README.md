@@ -108,41 +108,41 @@ npm start
 
 ## Home Page
 
-![Home Page](screenshots/home.png)
+![Home Page](frontend/screenshots/home.png)
 
 ## Register Page
 
-![Register Page](screenshots/register.png)
+![Register Page](frontend/screenshots/register.png)
 
 ## Login Page
 
-![Login Page](screenshots/login.png)
+![Login Page](frontend/screenshots/login.png)
 
 ## Customer Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](frontend/screenshots/dashboard.png)
 
 ## Service Booking
 
-![Service Booking](screenshots/service.png)
-![Service Booking](screenshots/booking.png)
+![Service Booking](frontend/screenshots/service.png)
+![Service Booking](frontend/screenshots/booking.png)
 
 ## My Booking
 
-![My Booking](screenshots/my-booking.png)
+![My Booking](frontend/screenshots/my-booking.png)
 
 ## Profile page 
 
-![Profile Page](screenshots/profile.png)
+![Profile Page](frontend/screenshots/profile.png)
 
 ## Gmail Notification
 
 
-![Gmail Notification](screenshots/gmail.png)
+![Gmail Notification](frontend/screenshots/gmail.png)
 
 ## Admin Dashboard
 
-![Admin Dashboard](screenshots/admin.png)
+![Admin Dashboard](frontend/screenshots/admin.png)
 
 ## Future Enhancements
 
